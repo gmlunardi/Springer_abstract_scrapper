@@ -3,7 +3,9 @@
 Script written in python that retrieves the abstract of HTML pages of SpringerLink.
 
 What Springer does not offer:
+
 -> bibtex (only CSV)
+
 tip: open it in a spreadsheet editor e copy the DOI column. Paste it into Zotero which will create the bibtex for you. However, Zotero does not retrieve the abstract, so you have to use the script in the following way:
 
 1. in both "with open('search_Springer.bib')" change to your bibtex file name;
